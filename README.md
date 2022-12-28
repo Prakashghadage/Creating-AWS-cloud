@@ -1,7 +1,7 @@
 # Creating-AWS-cloud
 
 
--Steps for containaized application
+- Steps for containaized application
 -1 Create Node JS application
 -2 Add Dockerfile to node js application.
 -3 Define automation script for creating custom container image
