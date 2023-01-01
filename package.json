@@ -1,0 +1,24 @@
+{
+  "name": "aws",
+  "version": "1.0.0",
+  "description": "- Steps for containaized application\r - 1 Create Node JS application\r - 2 Add Dockerfile to node js application.\r - 3 Define automation script for creating custom container image\r - 4 Push Node JS application to Github repo at git site.\r - 5 Create Virtual machine in On-premise or Hosted environment.\r - 6 Clone NodeJS app repo to Linux VM.\r - 7 Install Docker container execution engine.\r - 8 Start docker engine.\r - 9 build Docker container image using Docker build command.\r - 11 Ensure Container image is created in Linux machine.\r - 12 start container instance using docker run command.\r - 13  Check website inside container instance by invoking externally.\r - 14 Enure firewall for LInux VM is set to accept HTTP trafic from anywhere. 15.User browser to access web site from local machine.\r - 16 List down all container instance running\r - 17 List down all container images created in Linux VN\r - 18 Kill unnesasary container instances running\r - 19  Remove container images from LInux VN\r - 20 STop Docker running.\r - 21 STop or terminate Linux VM running",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prakashghadage/Creating-AWS-cloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prakashghadage/Creating-AWS-cloud/issues"
+  },
+  "homepage": "https://github.com/Prakashghadage/Creating-AWS-cloud#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
