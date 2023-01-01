@@ -21,3 +21,22 @@
 - 19  Remove container images from LInux VN
 - 20 STop Docker running.
 - 21 STop or terminate Linux VM running
+
+
+
+
+- sudo yum update
+- sudo yum install git
+- sudo yum install docker
+- git clone ref
+- sudo systemctl start docker
+- sudo systemctl enable docker
+- sudo systemctl status docker
+- sudo docker images
+- ls
+- cd filename
+- sudo docker build -t rdockerfilr name .
+- sudo docker ps
+- sudo docker run -d -t 8000:3000 server.js
+- sudo docker ps
+- 
