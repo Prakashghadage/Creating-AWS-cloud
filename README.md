@@ -22,6 +22,11 @@
 - 20 STop Docker running.
 - 21 STop or terminate Linux VM running
 
+- #
+- #
+- #
+- #
+- #
 
 
 
@@ -37,6 +42,6 @@
 - cd filename
 - sudo docker build -t rdockerfilr name .
 - sudo docker ps
-- sudo docker run -d -p 8000:3000 server.js
+- sudo docker run -d -p 8000:3000 dockerfile folder
 - sudo docker ps
 - 
